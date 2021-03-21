@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="newCascadeStyleSheet.css" rel="stylesheet">
+  <script src="newjavascript.js" defer></script>
+</head>
+    <body>
+        <div class="output0">
+            <div id="hhistory" class="previous-operand0"></div>
+        </div>
+        <div class="calculator-grid">
+            <div class="output">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
+            
+            <button></button>
+            <button></button>
+            <button></button>
+        
+            <button data-all-clear class="span-two">AC</button>
+            <button data-delete>DEL</button>
+            <button data-operation>÷</button>
+            <button data-number>Menudo</button>
+            <button data-number>Tacos</button>
+            <button data-number>Tostadas</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>*</button>
+            <button data-number>Quesadillas</button>
+            <button data-number>Crepas</button>
+            <button data-number>Gelatinas</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>Aguas Frescas</button>
+            <button data-number>Sodas</button>
+            <button data-number>Aguas</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-operation>-</button>
+            <button></button>
+            <button></button>
+            <button></button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-equals class="span-two">=</button>
+        </div> 
+        
+    </body>
+
+</html>
